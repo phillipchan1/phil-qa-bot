@@ -1,0 +1,72 @@
+{
+    "name": "phil-qa-backend-bot",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "tenantId": "5b2a8fee-4c95-4bdc-8aae-196f8aacb1b6",
+            "subscriptionId": "f5768d44-f43d-49e6-af94-f4d724fc6645",
+            "resourceGroup": "scem-a-rgp-adhoc-phil-chan-001",
+            "serviceName": "phil-qa-backend-bot",
+            "name": "phil-qa-backend-bot",
+            "id": "1",
+            "appId": "e5307f83-e26a-4bda-a306-540fa9bfdc0a"
+        },
+        {
+            "type": "blob",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=philqabackendbota917;AccountKey=7bkzIWYRmPUVUQC4Cb39gtQmSjHtgMVwhdsnEMtbp7U7B8naD6opE6nUQMsPqBwaRX4Tb9Rha7qG60Fn9ZsTGQ==;",
+            "tenantId": "5b2a8fee-4c95-4bdc-8aae-196f8aacb1b6",
+            "subscriptionId": "f5768d44-f43d-49e6-af94-f4d724fc6645",
+            "resourceGroup": "scem-a-rgp-adhoc-phil-chan-001",
+            "serviceName": "philqabackendbota917",
+            "id": "2"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "development",
+            "id": "3"
+        },
+        {
+            "type": "endpoint",
+            "appId": "e5307f83-e26a-4bda-a306-540fa9bfdc0a",
+            "appPassword": "a01M:0&sN6Y_I$K&[pQ0oFi5@qrjm",
+            "endpoint": "https://phil-qa-backend-bot.azurewebsites.net/api/messages",
+            "name": "production",
+            "id": "4"
+        },
+        {
+            "type": "appInsights",
+            "instrumentationKey": "2ce3612e-9235-47f6-a544-23663b0a55fd",
+            "applicationId": "22ee151d-1acc-4f75-87e8-8e7c148ea1f1",
+            "apiKeys": {},
+            "tenantId": "5b2a8fee-4c95-4bdc-8aae-196f8aacb1b6",
+            "subscriptionId": "f5768d44-f43d-49e6-af94-f4d724fc6645",
+            "resourceGroup": "scem-a-rgp-adhoc-phil-chan-001",
+            "serviceName": "phil-qa-backend-botygxy4l",
+            "id": "5"
+        },
+        {
+            "type": "luis",
+            "appId": "48f342d7-f685-4a2a-8835-782cc26d19b4",
+            "authoringKey": "1bc7f92d6bf6476aad9396f454380d0c",
+            "version": "0.1",
+            "region": "westus",
+            "name": "BasicBotLuisApplication",
+            "id": "6"
+        },
+        {
+            "type": "qna",
+            "name": "QnABot",
+            "KbId": "a234ff9a-8bf1-4bcb-a93c-33b2e5fc36b2",
+            "subscriptionKey": "",
+            "endpointKey": "c863b376-d0d7-4776-b9b6-609afa072ed9",
+            "hostname": "https://ask-sce-qna.azurewebsites.net/qnamaker",
+            "id": "117"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
